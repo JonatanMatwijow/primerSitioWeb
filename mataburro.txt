@@ -1,0 +1,9 @@
+Tipos de fonst{
+    1- https://fonts.google.com/?preview.size=20 
+
+    Añadi las fuentes:
+    family = Noto Sans Mono 200 y 400
+    family = Open Sans Condensed : italic wght 100 300
+    family = Roboto Slab : wght 100 400 700
+
+}

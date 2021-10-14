@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="descripcion" content="TutoBlog"/>
+    <meta name="author" content="Jonatan Matwijow"/>
+    <title>Crypto Patagonia | Contacto</title>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+     <!-- asimple vista deberia ir el logotipo arriba mano izquierda-->
+     <header>
+        <section> <!-- En esta seccion primera, me gustaria que sea una imagen tipo banner  (de lado a lado) con transparencias para que se note lo que haya por dentro-->
+            <img src="Imagenes/LogosNuevos/logo_MrJimtw_black.png" alt="Logotipo propio" width="100" height="100" />
+            <h2><em>TutoBlog de criptomonedas</em></h2>
+
+            <section> 
+                <div> <!-- Este codigo lo copie de google y muestra la fecha actualizada-->
+                    <script type="text/javascript">
+                        //<![CDATA[
+                        function makeArray() {
+                        for (i = 0; i<makeArray.arguments.length; i++)
+                        this[i + 1] = makeArray.arguments[i];}
+                        var months = new makeArray('Enero','Febrero','Marzo','Abril','Mayo',
+                        'Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre');
+                        var date = new Date();
+                        var day = date.getDate();
+                        var month = date.getMonth() + 1;
+                        var yy = date.getYear();
+                        var year = (yy < 1000) ? yy + 1900 : yy;
+                        document.write(day + " de " + months[month] + " del " + year + " | " + " Argentina.");
+                        //]]>
+                    </script>
+                </div>
+           
+                <div><!-- Este codigo lo copie de google y muestra hora actualizada-->
+                    <script type="text/javascript">
+                        function startTime(){
+                        today=new Date();
+                        h=today.getHours();
+                        m=today.getMinutes();
+                        s=today.getSeconds();
+                        m=checkTime(m);
+                        s=checkTime(s);
+                        document.getElementById('reloj').innerHTML=h+":"+m+":"+s;
+                        t=setTimeout('startTime()',500);}
+                        function checkTime(i)
+                        {if (i<10) {i="0" + i;}return i;}
+                        window.onload=function(){startTime();}
+                        </script>
+                        <div id="reloj" style="font-size:20px;"></div>    
+                </div>
+            </section>
+        </section>
+        
+        <nav>
+            <ul><!-- arriba lado izquierdo o centrado-->
+                <il><a href="index.html">Inicio</a></il>
+                <il><a href="faq.html">Crypto FAQs</a></il>
+                <il><a href="contacto.html">Contacto</a></il>
+            </ul>
+                    <!-- arriba mano derecha deberian ir-->
+            <a href="https://www.facebook.com/MatwijowJonatan" target="_blank"> <img src="Imagenes/Logos/logoFacebook.png" width="50" height="50" alt="Facebook"></a>
+            <a href="https://twitter.com/JonatanMatwijow" target="_blank"> <img src="Imagenes/Logos/logoTwitter.png" width="50" height="50" alt="Twitter"></a>
+            <a href="https://www.linkedin.com/in/jonatanmatwijow/" target="_blank"> <img src="Imagenes/Logos/logolinkedin.png" width="50" height="50" alt="LinkedIn"></a>
+            <a href="https://api.whatsapp.com/send?phone=5492975441872" target="_blank"> <img src="Imagenes/Logos/logoWhatsapp2.png" width="50" height="50" alt="Whatsapp"></a>
+            
+            <img src="Imagenes/LogosNuevos/logo_CryptoPatagonia2.png" alt="Imagen de la empresa" width="1650" height="500" />
+         </nav>
+    </header>
+    
+    <main> <!-- Aqui podriamos poner informacion de contacto (en diferentes section, ir agregando formularios, 
+           numeros telefonicos, redes sociales. Tambien podria ser el google map)-->
+        <section>
+            <div>
+                <h1><em>Ponerse en contacto</em></h1>
+                <span>Puedes escribirnos directamente haciendo <a href="https://api.whatsapp.com/send?phone=5492975441872" target="_blank"><strong>click aqui.</strong></a>
+                </span><br>
+            </div>
+
+            <div>
+                <form action="" method="post" enctype="">
+
+                    <fieldset>
+                        <legend>Datos de contacto</legend>
+                        <div>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre"  id="nombre" placeholder="Ingresa tu nombre" id="nombre">
+                        </div>
+                        <div>
+                            <label for="apellido">Apellido</label>
+                            <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido">
+                        </div>
+                        <div>
+                            <label for="telefono">Telefono</label>
+                            <input type="tel" name="telefono" id="telefono" placeholder="Ingresa tu telefono">
+                        </div>
+                        <div>
+                            <label for="edad">Edad</label>
+                            <input type="number" name="numero" id="edad" placeholder="Puedes ingresar solo numeros">
+                        </div>
+                    </fieldset>
+            
+                    <div>
+                        <label for="correo">Correo</label>
+                        <input type="email" name="correo" id="correo" placeholder="Ingresa tu correo electronico">
+                    </div>
+            
+                    <div>
+                        <label for="comentario">Comentario</label>
+                        <textarea name="comentario" id="comentario" placeholder="Ingresar tu comentario" cols="50" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <label for="acetap">Aceptar terminos</label>
+                        <input type="checkbox" name="acepta" value="1" id="aceptar">
+                    </div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar">
+                </form>
+            </div>
+        </section>
+        
+            <div>
+                <img src="Imagenes/LogosNuevos/logoContact.png" alt="Imagen de contacto" width="300" height="300"/>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <!--Redes Sociales-->
+            <h3>Siguenos</h3>
+            <ul>
+             <a href="https://www.facebook.com/MatwijowJonatan" target="_blank"> <img src="Imagenes/Logos/logoFacebook.png" width="50" height="50" alt="Facebook"></a>
+             <a href="https://twitter.com/JonatanMatwijow" target="_blank"> <img src="Imagenes/Logos/logoTwitter.png" width="50" height="50" alt="Twitter"></a>
+             <a href="https://www.linkedin.com/in/jonatanmatwijow/" target="_blank"> <img src="Imagenes/Logos/logolinkedin.png" width="50" height="50" alt="LinkedIn"></a>
+            </ul>
+            
+            <p>
+                Creado por Jonatan Matwijow | 2021 | Aprendiendo con
+                <a href="https://www.potrerodigital.org/" target="_blank">Potrero Digital</a> <br>
+                <h6>Descargo: Blog realizado meramente con objetivo educativo, sin fin de lucro.</h6>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

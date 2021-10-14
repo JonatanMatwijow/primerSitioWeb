@@ -1,0 +1,79 @@
+ul{
+    list-style:none;
+}
+
+h1{
+    font-family: Open Sans Condensed;
+    font: weight 300px;
+}
+body{
+    background-color: whitesmoke;    
+}
+
+.cabecera {
+    background-color: #ABB2B9;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    box-shadow: 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor{
+   max-width: 80%;
+   margin-left: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.nav_logo{
+    width: 50%;
+    height: 50%;
+}
+.redes{
+    display: flex;
+    justify-content: flex-end;     
+}
+.icons{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+.nav{
+    min-width: 50%;
+}
+
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+
+.nav_enlace {
+    color: black;
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #ABB2B9;
+}
+
+.hero{
+    background-image: url('../Imagenes/Img_Banners/Patagonia-Argentina-10.jpg');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.titulo_principal{
+    font-family:  Noto Sans Mono;
+    font-style: italic;
+    font: weight 400px;
+    padding-left: 50px;
+
+}

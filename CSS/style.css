@@ -34,17 +34,18 @@ body{
     justify-content: flex-end;     
 }
 .icons{
-    background-color: red;
-    width: 200px;
-    height: 200px;
+    width: 30px;
+    height: 30px;
+    padding-right: 15px;
 }
 .nav{
-    min-width: 50%;
+    min-width: 80%;
 }
 
 .nav_list{
+    background-color: red;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items:flex-end;
 }
 
@@ -55,6 +56,7 @@ body{
     font-weight: 400;
     text-decoration: none;
     background-color: #ABB2B9;
+
 }
 
 .hero{

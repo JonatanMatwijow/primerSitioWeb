@@ -1,7 +1,8 @@
-body{
+*{
     padding: 0px;
     margin: 0px;
-    background-color: white;
+    font-family: Roboto Slab;
+    font-weight: 400;
 }
 ul{
     list-style:none;
@@ -98,18 +99,73 @@ ul{
     color:black;
     border: 2px solid black;
     font-size: 15pt;
-    padding:10px;
+    padding: 10px;
 }
 
 .box1{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border: 2pt solid black;
-    text-align:initial;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    box-shadow: 0 5px rgba(108, 113, 124, 0.74);
+    border-radius: 10px;
+    padding: 15px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
-.cripto{
-    width: 1024px;
-    height: 50px;
+.box1 h1{
+    font-family: Roboto Slab;
+    font-weight: 400;
+    font-size: 18pt;
+    padding-bottom: 30px;
+}
+.box1 p{
+    font-size: 18px;
+    text-align: justify;
+    float:inline-end;
+    padding-bottom: 15px;
+    /* margin: auto; */
+       
+}
+.box1 img{
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    float: right;
+    margin-left: 25px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    /* display: flex;
+    justify-content: right;
+    align-content: center; */
+}
+.box1 span{
+    font-style: oblique;
+    font-size: 12pt;
+}
+
+.promo{
+    background-color: yellow;
+    position: relative;
+}
     
+.promo_titulo{
+    font-size: 20pt;
+    font-family: Roboto Slab;
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    /* bottom: 0; */
+    z-index: 10;
+    width: 100%;
+
+} 
+
+.promo_video{
+    width: 100%;
+    height: 600px;
+    position: relative;
+     
 }
